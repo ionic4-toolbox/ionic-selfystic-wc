@@ -1,0 +1,6 @@
+{
+  "appId": "io.selfystic.app",
+  "appName": "selfystic-wc",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

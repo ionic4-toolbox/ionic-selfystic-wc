@@ -1,0 +1,20 @@
+import { Config } from '@stencil/core';
+import { sass } from '@stencil/sass';
+
+// https://stenciljs.com/docs/config
+
+export const config: Config = {
+  plugins: [
+    sass()
+  ],
+  outputTargets: [
+    {
+      type: 'www',
+      serviceWorker: {
+        swSrc: 'src/sw.js'
+      }
+    }
+  ],
+  globalScript: 'src/main.ts',
+  globalStyle: 'src/global.scss'
+};

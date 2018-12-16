@@ -1,0 +1,25 @@
+{
+  "name": "selfystic-wc",
+  "private": true,
+  "version": "0.0.1",
+  "description": "selfystic-wc",
+  "license": "MIT",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@capacitor/android": "1.0.0-beta.11",
+    "@capacitor/core": "1.0.0-beta.11",
+    "@ionic/core": "4.0.0-beta.19",
+    "@ionic/pwa-elements": "1.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "1.0.0-beta.11",
+    "@stencil/core": "0.16.1",
+    "@stencil/sass": "0.1.1",
+    "workbox-build": "3.4.1"
+  }
+}
